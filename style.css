@@ -1,0 +1,133 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+  margin: auto;
+  color: #757575;
+  font-weight:600;
+}
+.all{
+  width: 500px;
+  margin: auto;
+}
+.icon a{
+  color: #757575;
+  width: 30px;
+}
+.head-content{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.head-content ul{
+  display: flex;
+  justify-content:start ;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  width: 60%;
+}
+.head-content ul li a{
+  text-decoration: none;
+  color: #757575;
+}
+.head-content a.active{
+  color: blue;
+  border-bottom: 2px solid blue;
+  padding-bottom: 10px; 
+}
+.head-content ul li a:focus{
+  color: blue;
+  border-bottom: 2px solid blue;
+  padding-bottom: 10px;
+  
+}
+.head-content ul li{
+  display: inline;
+  list-style: none;
+  margin-right: 40px;
+}
+.head-content .image{
+  background: url('./img/pexels10.jpeg');
+  background-size: cover;
+  background-position: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+.head-content i{
+  font-size: 27px;
+}
+ i{
+ font-size:22 px;
+}
+
+.input-content{
+  border: 0.5px solid #484848;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 60px;
+  outline: none;
+  border-radius: 30px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+.input-content >div{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.input-content input{
+  height:100%;
+  outline: none;
+  width: 80%;
+  margin: 0px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  padding: 0;
+  padding-left: 10px;
+}
+.input-content i{
+  width: 9%;
+  font-size: 22px;
+}
+
+.edit{
+  font-size: 22px;
+  color: white;
+  background: #3a77e7;
+  width: 13%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit i{
+  margin-right:20px;
+}
+.links ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+.links li  {
+  display: inline;
+}
+.links a{
+  text-decoration: none;
+}
+
+  footer{
+    margin-top:150px;
+    background: #cac4c4;
+    text-align: left;
+    padding: 10px;
+  }
